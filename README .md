@@ -15,7 +15,7 @@
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 netflix-content-analysis/
@@ -66,10 +66,10 @@ Handled missing values and created new numeric features:
 ### 3. Exploratory Data Analysis (EDA)
 
 **Key findings:**
-- 📽️ **Movies outnumber TV Shows** significantly in the dataset
-- 📅 **Sharp increase in titles after 2010** — Netflix content explosion
-- ⏱️ **Most movies:** 80–120 minutes | **Most TV shows:** 1–2 seasons
-- 🎭 **Top genres:** International Movies, Dramas, Comedies dominate
+- **Movies outnumber TV Shows** significantly in the dataset
+- **Sharp increase in titles after 2010** — Netflix content explosion
+- **Most movies:** 80–120 minutes | **Most TV shows:** 1–2 seasons
+- **Top genres:** International Movies, Dramas, Comedies dominate
 
 ---
 
@@ -133,10 +133,10 @@ for k in range(2, 10):
 
 ### 6. Conclusion
 
-- ✅ Random Forest can **accurately classify** Movie vs TV Show using simple metadata
-- ✅ `duration_num` is the **strongest predictor** by a wide margin
-- ✅ K-Means reveals **4 meaningful content groups** that reflect real Netflix catalog patterns
-- ✅ Netflix's catalog is **dominated by post-2010 content** with International Movies and Dramas as the top categories
+- Random Forest can **accurately classify** Movie vs TV Show using simple metadata
+- `duration_num` is the **strongest predictor** by a wide margin
+- K-Means reveals **4 meaningful content groups** that reflect real Netflix catalog patterns
+- Netflix's catalog is **dominated by post-2010 content** with International Movies and Dramas as the top categories
 
 ---
 
